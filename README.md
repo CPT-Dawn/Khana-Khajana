@@ -1,2 +1,2 @@
-# Khana-Khajana
+# Khana Khajana
 Java project bolte
