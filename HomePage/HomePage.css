@@ -15,6 +15,7 @@ body {
   flex-direction: column;
   height: 100vh;
 }
+
 header {
   width: 100%;
   height: 75px;
@@ -57,4 +58,60 @@ nav li a:hover {
   background: #fff;
   border-radius: 50%;
   transition: all 0.4s ease;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  padding: 5%;
+  background-image: linear-gradient(
+    rgba(0, 8, 51, 0.9),
+    rgba(0, 8, 51, 0.9),
+    url(HomePage.png)
+  );
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-bar {
+  width: 100%;
+  max-width: 900px;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  border-radius: 60px;
+  padding: 10px 20px;
+  backdrop-filter: blur(3px);
+  margin-top: -400px;
+}
+
+.search-bar input {
+  background: transparent;
+  flex: 1;
+  border: 0;
+  outline: none;
+  padding: 24px 20px;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.search-bar button {
+  border: 0;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  background: #ff6f61;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.search-bar button img {
+  width: 25px;
 }
