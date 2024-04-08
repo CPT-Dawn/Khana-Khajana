@@ -45,16 +45,16 @@ nav li {
 nav li a {
   display: inline-block;
   padding: 10px 20px;
-  border-radius: 50px; /* Circular buttons */
+  border-radius: 50px;
   color: #fff;
   text-decoration: none;
   cursor: pointer;
-  transition: all 0.4s ease; /* Added transition */
+  transition: all 0.4s ease;
 }
 
 nav li a:hover {
   color: #000000;
   background: #fff;
-  border-radius: 50%; /* Circular hover animation */
-  transition: all 0.4s ease; /* Moved transition */
+  border-radius: 50%;
+  transition: all 0.4s ease;
 }
