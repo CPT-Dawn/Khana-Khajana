@@ -1,64 +1,60 @@
-@import url("https://fonts.googleapis.com/css?family=poppins:300,400,500,600,700,800,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
+
 body {
-  min-height: 100vh;
-  background: linear-gradient(#e09467, #e8d4b5);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
 }
 header {
-  position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
-  padding: 30px 100px;
+  height: 75px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  z-index: 10000;
-  backdrop-filter: blur(5px);
-}
-header .Khana_Khajana {
-  color: black;
-  font-weight: 700;
-  text-decoration: none;
-  font-size: 2em;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-}
-header ul {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-header ul li {
-  list-style: none;
-  margin-left: 20px;
-}
-header ul li a {
-  text-decoration: none;
-  padding: 6px 15px;
-  color: black;
-  border-radius: 20px;
-}
-header ul li a:hover {
-  background: #ffffff;
-  color: #0ea36f;
-}
-section {
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  padding: 100px;
-}
-section img {
-  position: absolute;
+  padding: 30px 10%;
+  background: rgba(0, 0, 0, 0.2);
+  position: fixed;
   top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: bold;
+  color: #000000;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+}
+
+nav li {
+  display: inline-block;
+  list-style: none;
+  padding: 0px 20px;
+}
+
+nav li a {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 50px; /* Circular buttons */
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.4s ease; /* Added transition */
+}
+
+nav li a:hover {
+  color: #000000;
+  background: #fff;
+  border-radius: 50%; /* Circular hover animation */
+  transition: all 0.4s ease; /* Moved transition */
 }
