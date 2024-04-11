@@ -28,11 +28,7 @@
     </header>
 
     <div class="container">
-      <form
-        action="SearchServlet"
-        method="post"
-        class="search-bar"
-      >
+      <form action="SearchServlet" method="post" class="search-bar">
         <input
           type="ingredients"
           placeholder="Input the ingredients with a comma"
